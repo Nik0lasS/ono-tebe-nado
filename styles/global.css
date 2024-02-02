@@ -9,6 +9,7 @@ body {
   margin: 0 auto;
   font-family: Raleway, sans-serif;
   background-color: gray;
+  text-underline-offset: 4px;
 }
 
 h1,
