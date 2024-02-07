@@ -285,11 +285,12 @@
     font-size: 20px;
     font-style: normal;
     line-height: 23.7px;
-    
+    margin-bottom: 25px;
+    max-width: 693px;
 }
 
-.about__text-mb {
-    margin-bottom: 25px;
+.about__text:last-child {
+    margin-bottom: 0;
 }
 
 .footer {
