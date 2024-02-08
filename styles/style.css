@@ -153,7 +153,6 @@
 
 .lots {
     height: auto;
-    min-height: 692px;
     margin-top: 180px;
     padding: 0 11.5px;
 }
@@ -244,7 +243,6 @@
     grid-template-columns: 334px 1fr;
     grid-template-rows: 100%;
     height: auto;
-    min-height: 595px;
     margin-top: 146px;
     padding: 0 25px;
 }
@@ -259,6 +257,7 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
+    padding-top: 138px;
     padding-left: 25px;
 }
 
@@ -298,11 +297,11 @@
     line-height: 23.7px;
 }
 
-.about__text-ls1 {
+.about__text-ls-oni {
     letter-spacing: 0.8px;
 }
 
-.about__text-ls2 {
+.about__text-ls-neudachnimi {
     letter-spacing: 0.2px;
 }
 
@@ -344,8 +343,7 @@
 
 .footer__social-list {
     display: flex;
-    justify-content: space-between;
-    width: 240px;
+    gap: 48px;
 }
 
 .footer__social-list-item {
